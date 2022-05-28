@@ -1,0 +1,11 @@
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: var(--overview-color);
+}
+
+.toggle {
+  padding-left: 5px;
+  cursor: pointer;
+  color: var(--orange-background);
+}

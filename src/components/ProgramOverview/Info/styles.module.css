@@ -1,0 +1,53 @@
+.info {
+  margin: 15px 0 30px;
+}
+
+.info > div {
+  display: flex;
+  align-items: center;
+}
+
+.channel_title {
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.time_line {
+  font-size: 12px;
+  color: var(--overview-color);
+}
+
+.time_line > span {
+  position: relative;
+  padding-left: 10px;
+  margin-left: 6px;
+}
+
+.time_line > span:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 0;
+  background-color: var(--overview-color);
+}
+
+.program_title {
+  font-size: 24px;
+  margin: 8px 0 10px;
+}
+
+.meta {
+  display: flex;
+  color: var(--overview-color);
+}
+
+.meta > div {
+  margin-right: 15px;
+}
+
+.meta > div:last-child {
+  margin-right: 0;
+}

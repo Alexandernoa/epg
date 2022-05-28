@@ -1,0 +1,30 @@
+.program {
+  margin-top: -60px;
+  position: relative;
+}
+
+.content {
+  padding: 0 15px;
+  line-height: 1.2;
+}
+
+.live_status {
+  padding: 5px 15px 5px 30px;
+  color: var(--primary-color);
+  position: absolute;
+  top: 70px;
+  right: 0;
+  text-transform: uppercase;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.live_status:after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: calc(50% - 6px);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: var(--live-program-background);
+}

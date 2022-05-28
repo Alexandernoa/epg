@@ -1,0 +1,16 @@
+@mixin variables {
+  --primary-background: #111;
+  --secondary-background: #202020;
+  --orange-background: #E1A21E;
+  --active-program-background: #393939;
+  --live-program-background: #ABFF99;
+  --tab-active-background: #484848;
+
+  --primary-color: #fff;
+  --secondary-color: #969696;
+  --overview-color: rgba(255,255,255,.7);
+
+  --primary-border-color: #3B3B3B;
+}
+
+

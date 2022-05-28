@@ -1,0 +1,75 @@
+.channels {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 60px auto;
+  margin-bottom: 48px;
+}
+
+.channel__schedule {
+  overflow: hidden;
+}
+
+.channel {
+  height: 60px;
+  position: relative;
+}
+
+.logo {
+  padding-top: 37px;
+  position: relative;
+  z-index: 1;
+  background-color: var(--secondary-background);
+  box-shadow: 4px 41px 13px 0 rgb(0 0 0 / 30%);
+}
+
+.logo > div {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid var(--primary-border-color)
+}
+
+.programs {
+  height: 60px;
+  display: inline-flex;
+  position: relative;
+  border-bottom: 1px solid var(--primary-border-color)
+}
+
+.timeline {
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: var(--orange-background);
+  width: 1px;
+  height: 100%;
+}
+
+.timeline:before {
+  content: '';
+  background-color: var(--orange-background);
+  width: 4px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  border-radius: 20px;
+}
+
+.now_handler {
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  bottom: 50px;
+  right: 50px;
+  background-color: var(--orange-background);
+}

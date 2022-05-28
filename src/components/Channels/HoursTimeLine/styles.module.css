@@ -1,0 +1,30 @@
+.hours {
+  display: inline-flex;
+  font-size: 16px;
+}
+
+.hour {
+  display: inline-block;
+  padding: 10px 0;
+  background-color: var(--secondary-background);
+  border-bottom: 1px solid var(--primary-border-color);
+}
+
+.hour > div {
+  margin-left: -23px;
+  position: relative;
+}
+
+.hour:first-child > div {
+  margin-left: 0;
+}
+
+.hour > div:before {
+  content: '';
+  position: absolute;
+  left: 23px;
+  bottom: -10px;
+  height: 10px;
+  width: 1px;
+  background-color: var(--primary-border-color);
+}

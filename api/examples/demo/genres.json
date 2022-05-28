@@ -1,0 +1,58 @@
+{
+  "genres": [
+    {
+      "title": "Horror",
+      "programs": [
+        "dummy_program_id",
+        "program_live_id",
+        "program_catchup_id"
+      ]
+    },
+    {
+      "title": "Comedy",
+      "programs": [
+        "program_live_id",
+        "program_catchup_id",
+        "dummy_program_id"
+      ]
+    },
+    {
+      "title": "Adventures",
+      "programs": [
+        "dummy_program_id",
+        "program_catchup_id",
+        "program_live_id"
+      ]
+    }
+  ],
+  "programs": {
+    "dummy_program_id": {
+      "id": "dummy_program_id",
+      "title": "Vikings (Future)",
+      "start": "2022-05-26T23:58:00+03:00",
+      "end": "2022-05-26T23:59:00+03:00",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/slide_vikings.jpg"
+      }
+    },
+    "program_live_id": {
+      "id": "program_live_id",
+      "title": "Vikings (Live)",
+      "start": "2022-05-26T00:00:00+03:00",
+      "end": "2022-05-26T23:59:00+03:00",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/categories_vikings.jpg"
+      }
+    },
+    "program_catchup_id": {
+      "id": "program_catchup_id",
+      "title": "Vikings (Catchup)",
+      "start": "2022-05-26T00:00:00+03:00",
+      "end": "2022-05-26T00:01:00+03:00",
+      "catchupExpiration": "2022-05-29T00:00:00+03:00",
+      "images": {
+        "icon": "https://www.woodbangersentertainment.com/wp-content/uploads/2016/07/vikings.jpg"
+      }
+    }
+  }
+}

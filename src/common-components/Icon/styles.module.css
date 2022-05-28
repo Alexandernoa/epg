@@ -1,0 +1,11 @@
+.icon {
+  fill: var(--primary-color);
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.active > svg {
+  fill: var(--orange-background);
+}
